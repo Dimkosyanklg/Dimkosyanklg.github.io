@@ -3,9 +3,17 @@ import React from "react";
 function App() {
     return (
         <div>
-            <a href="/eshop-react">eshop</a>
-            <a href="/dnd-calculator">drag'n'drop calculator</a>
-            <a href="/bus-schedule">bus schedule</a>
+            <ul>
+                <li>
+                    <a href="/eshop-react">eshop</a>
+                </li>
+                <li>
+                    <a href="/dnd-calculator">drag'n'drop calculator</a>
+                </li>
+                <li>
+                    <a href="/bus-schedule">bus schedule</a>
+                </li>
+            </ul>
         </div>
     );
 }
